@@ -1,2 +1,14 @@
-.idea
+.idea/
+
+#ignore database
 db_fibopj.sql
+#ignore plugin & libraries
+
+ckeditor/
+font-awesome-4.7.0/
+fontawesome-free-5.15.4-web/
+fonts/
+highcharts/
+PHPMailer/
+
+jquery-3.6.0.min.js

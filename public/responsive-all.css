@@ -1,0 +1,144 @@
+
+/* -----responsive design----- */
+@media screen and (max-width: 1330px) {
+    .container {
+        width: 1200px;
+    }
+
+    .main-matter {
+        width: 798px;
+    }
+
+    main .part .img-subject {
+        width: 796px;
+        left: 30.5px;
+    }
+
+    .sidebar, .fix-tab {
+        width: 380px;
+    }
+}
+
+@media screen and (max-width: 1220px) {
+    .container {
+        width: 1115px;
+    }
+
+    .main-matter {
+        width: 748px;
+    }
+
+    .in-padding {
+        padding: 20px;
+    }
+
+    main .part .img-subject {
+        width: 746px;
+        left: 20px;
+    }
+
+    .sidebar, .fix-tab {
+        width: 348px;
+    }
+
+    .sidebar .news .cover-img-icon {
+        height: 70px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .container {
+        width: 1100px;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .container {
+        display: block;
+        width: auto;
+    }
+
+    .main-matter, .sidebar {
+        width: auto;
+        padding: 0 10px;
+    }
+
+    main .part .img-subject {
+        width: 104.4%;
+        left: 2.25%;
+    }
+
+    .grid-header {
+        grid-template-columns: 10% 80% 10%;
+        grid-template-areas: "bars logo icons";
+    }
+
+    #bars {
+        display: block;
+    }
+
+    #fix-menu {
+        display: block;
+    }
+
+    #icons {
+        display: block;
+    }
+
+    #icons i {
+        font-size: 20px;
+        margin-left: 15px;
+        cursor: pointer;
+    }
+
+    #menu-top {
+        display: none;
+    }
+
+    #header .logo {
+        justify-content: center;
+    }
+
+    #nav * {
+        display: none;
+    }
+
+    .fix-tab, .fix-bottom {
+        position: static;
+    }
+
+    #similar li.flex-j-between {
+        justify-content: flex-start;
+    }
+
+    .grid-news {
+        grid-template-columns: 100px 89%;
+    }
+}
+
+@media screen and (max-width: 748px) {
+    main .part .img-subject {
+        width: 107%;
+        left: 3.7%;
+    }
+
+    .sharing button span {
+        display: none;
+    }
+
+    .sharing button {
+        width: 30px;
+    }
+
+    .sharing button i {
+        vertical-align: bottom;
+    }
+
+    #footer .flex-j-between {
+        display: block;
+    }
+
+    #footer .title {
+        margin-top: 20px;
+    }
+}
